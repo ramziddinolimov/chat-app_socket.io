@@ -1,0 +1,19 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is a node server for our ichat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ramziddin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "index.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.2.0"
+  }
+}
