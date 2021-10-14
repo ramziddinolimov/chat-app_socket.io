@@ -15,6 +15,10 @@ const append = (message, position) =>{
 const name = prompt("Enter your name to join");
 socket.emit('new-user-joined', name);
 
-socket.on('user-joined', data => {
+socket.on('user-joined', name => {
+    append(`${name} joined the chat`, 'right')
+})
 
+socket.on('receive', data => {
+    append(`${data.message}: ${data.user}`, 'right')
 })
