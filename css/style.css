@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+body{
+    background-image: linear-gradient(rgba(92,100,221), purple);
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+}
+
+.container{
+    max-width: 955px;
+    background-color: red;
+    margin: auto;
+    height: 60vh;
+}
+
+.message{
+    background-color: grey;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
