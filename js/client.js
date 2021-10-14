@@ -28,5 +28,5 @@ socket.on('user-joined', name => {
 })
 
 socket.on('receive', data => {
-    append(`${data.message}: ${data.user}`, 'left')
+    append(`${data.name}: ${data.message}`, 'left')
 })
