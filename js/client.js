@@ -30,3 +30,5 @@ socket.on('user-joined', name => {
 socket.on('receive', data => {
     append(`${data.name}: ${data.message}`, 'left')
 })
+
+
